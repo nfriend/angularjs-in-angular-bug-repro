@@ -5,7 +5,7 @@ Reproducing an issue with using an AngularJS component in an Angular app
 
 To build and run this application:
 
-- Clone this repo.
+- Clone this repo
   1. `git clone https://github.com/nfriend/angularjs-in-angular-bug-repro.git`
 - Build and link the AngularJS module
   1. `cd angularjs-module`
