@@ -1,0 +1,5 @@
+node_modules
+bower_component
+coverage
+.vscode
+.idea
