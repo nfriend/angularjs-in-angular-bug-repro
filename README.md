@@ -5,16 +5,18 @@ Reproducing an issue with using an AngularJS component in an Angular app
 
 To build and run this application:
 
-- First, build and link the AngularJS module
-    1. `cd angularjs-module`
-    2. `npm install`
-    3. `gulp build`
-    4. `npm link`
-- Second, link the module into the Angular app and build and run the app
-    1. `cd ../angular-app`
-    2. `npm install`
-    3. `npm link angularjs-module`
-    4. `ng serve --open`
+- Clone this repo.
+  1. `git clone https://github.com/nfriend/angularjs-in-angular-bug-repro.git`
+- Build and link the AngularJS module
+  1. `cd angularjs-module`
+  2. `npm install`
+  3. `gulp build`
+  4. `npm link`
+- Link the module into the Angular app and build and run the app
+  1. `cd ../angular-app`
+  2. `npm install`
+  3. `npm link angularjs-module`
+  4. `ng serve --open`
 
 The application should automatically open in a new browser tab.  The app will throw the following error in the console:
 
