@@ -33,3 +33,7 @@ Error: Trying to get the AngularJS injector before it being set.
     at ExampleDirective.UpgradeComponent (static.js:1114)
     at new ExampleDirective (example.component.ts:10)
 ```
+
+## GitHub issue
+
+https://github.com/angular/angular/issues/23141
